@@ -1,5 +1,3 @@
-
-
 <?php
 header("Content-Type: image/png");
 $im = @imagecreate(110, 20)

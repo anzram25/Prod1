@@ -2,10 +2,6 @@
 
 function imagelinethick($imagen, $x1, $y1, $x2, $y2, $color, $grueso = 1)
 {
-    /* esta forma funciona bien sólo para líneas ortogonales
-    imagesetthickness($imagen, $grueso);
-    return imageline($imagen, $x1, $y1, $x2, $y2, $color);
-    */
     if ($grueso == 1) {
         return imageline($imagen, $x1, $y1, $x2, $y2, $color);
     }
